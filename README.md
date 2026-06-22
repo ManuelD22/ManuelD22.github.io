@@ -35,7 +35,6 @@
 		<li> em, strong </li>
 		<li> <a href="#listas">ul, ol</a> </li>
 	</ul>
-	
 	<h2 id="html">Etiqueta html</h2>
 	<p>Indica la lectura del archivo en html</p>
 	<h2>Etiqueta head</h2>
@@ -54,7 +53,6 @@
 	<p>La etiqueta ul se utiliza para elaborar listas desordenadas</p>
 	<br>
 	<p>La etiqueta ol se utiliza para elaborar listas numeradas</p>
-	
 	<a href="https://csszengarden.com/"> Formatos de CSS
 	<img src="https://tse3.mm.bing.net/th/id/OIP.U6lpTN-rqwDjF9zY0Q9anQHaE8?r=0&cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Frontend vs backend" width="203">
 	</a>
