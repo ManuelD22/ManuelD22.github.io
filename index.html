@@ -7,14 +7,31 @@
 		h2 {
 			color: rgb(0,120,46);
 		}
-		#eti { background-color: yellow;
+		#eti { 
+			background-color: yellow;
 		}
-		.subtitulos { color: rgb(20,20,0);
+		.subtitulos { 
+			color: rgb(20,20,0);
+		}
+		.rojo {
+			color:red;
+		}
+		#bloque { 
+			background-color: gray; width:30%; height: 180px; overflow: auto; float:right;
+		}
+		#imagen { 
+			position: relative; top:30px; left: 80px; z-index:1; float: right;
+		}
+		table,td {
+		    border:1px solid orange;
+		}
+		#titulo {
+		    position:fixed;
 		}
 		</style>
 	</head>
 	<body>
-	<h1><center> Lenguaje HTML </center></h1>
+	<h1 id="titulo"><center> Lenguaje HTML </center></h1>
 	<hr>
 	<h2>Que significa HTML</h2>
 	<p>
@@ -40,7 +57,7 @@
 	<p>Indica la lectura del archivo en html</p>
 	<h2>Etiqueta head</h2>
 	<p>Se declaran las caracterisricas que tendra el html</p>
-	<h2>Etiqueta body</h2>
+	<h2>Etiqueta <span class="rojo">body</span></h2>
 	<p>Se integra todo el contenido que incluira el html</p>
 	<h2>Etiquetas h</h2>
 	<p>Se utilizan para definir un titulo (h1) y varios subtitulos dentro del html</p>
@@ -51,14 +68,34 @@
 	<br>
 	Mientras que las etiquetas strong o b se utilizan para aplicar el <strong>tipo de letra</strong> <b>negritas</b></p>
 	<h2 id="listas">Etiqueta ul y ol</h2>
-	<p>La etiqueta ul se utiliza para elaborar listas desordenadas</p>
+	<div id="bloque"><p>La etiqueta ul se utiliza para elaborar listas desordenadas</p>
 	<br>
 	<p>La etiqueta ol se utiliza para elaborar listas numeradas</p>
 	
 	<a href="https://csszengarden.com/"> Formatos de CSS
-	<img src="https://tse3.mm.bing.net/th/id/OIP.U6lpTN-rqwDjF9zY0Q9anQHaE8?r=0&cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Frontend vs backend" width="203">
-	</a>
+	<img id="imagen" src="https://tse3.mm.bing.net/th/id/OIP.U6lpTN-rqwDjF9zY0Q9anQHaE8?r=0&cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Frontend vs backend" width="203">
+	</a></div>
 	<h2 class="subtitulos"> programación </h2>
 	<h2> ejemplo </h2>
+	<table>
+	<thead> 
+	    <tr>
+	        <th>encabezado 1 </th>
+	        <th>encabezado 2</th>
+	        <th>encabezado 3</th>
+	    </tr>
+	</thead>
+	<tbody>
+	    <tr>
+	        <td>texto 1</td>
+	        <td>texto2</td>
+	    </tr>
+	</tbody>
+	<tfoot>
+	    <tr>
+	        <td>total 1</td>
+	        <td>total 4</td>
+	    </tr>
+	</tfoot>
+    </table>
 	</body>
-</html>
